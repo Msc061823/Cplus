@@ -6,7 +6,7 @@ int main()
 	int temp=0;
 	int f1 = 0;
 	int f2 = 1;
-	while (f2<100)		//temp为前两项之和,大于等于100时循环终止	也可以写为 while(f2<100)
+	while (temp<100)		//temp为前两项之和,大于等于100时循环终止	也可以写为 while(f2<100)
 	{
 		//使f1,f2两项后移
 
