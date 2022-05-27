@@ -12,6 +12,7 @@ int main()
     ate date;
     cout << "输入年月日(yyyy mm dd)：";
     cin >> date.year >> date.month >> date.day;
+	days=0;
 	switch (date.month)
 	{
 	case 1:days = date.day;break;
